@@ -1,0 +1,23 @@
+{
+  "name": "express-layered-crud",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "prisma": "^6.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
