@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzojuy79lo3fn3qdt7g6p.png" align="center" width="30%">
+    <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzojuy79lo3fn3qdt7g6p.png" align="center" width="60%">
 </p>
 <p align="center"><h1 align="center">EXPRESS-LAYERED-ARCHITECTURE-CRUD</h1></p>
 <p align="center">
@@ -59,10 +59,13 @@ This repository demonstrates how to build a small RESTful API using Node.js, Exp
     ├── prisma
     │   └── schema.prisma
     └── src
-        ├── .DS_Store
         ├── db
-        ├── index.js
+    		└── index.js
+        ├── index.js #main file
         └── product
+    		└── product.controller.js
+    		└── product.repository.js
+    		└── product.service.js
 ```
 
 
@@ -165,7 +168,12 @@ Install express-layered-architecture-crud using one of the following methods:
 ❯ cd express-layered-architecture-crud
 ```
 
-3. Install the project dependencies:
+3. Copy .env.developement to .env and place your db information and port:
+```sh
+❯ .env.developement -> .env
+```
+
+4. Install the project dependencies:
 
 
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
