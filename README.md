@@ -6,7 +6,6 @@
 	<em>A simple learning API built with Node.js, Express, Prisma and MySQL using a layered architecture</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/yogaarrd/express-layered-architecture-crud?style=default&logo=opensourceinitiative&logoColor=white&color=3dc956" alt="license">
 	<img src="https://img.shields.io/github/last-commit/yogaarrd/express-layered-architecture-crud?style=default&logo=git&logoColor=white&color=3dc956" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/yogaarrd/express-layered-architecture-crud?style=default&color=3dc956" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/yogaarrd/express-layered-architecture-crud?style=default&color=3dc956" alt="repo-language-count">
